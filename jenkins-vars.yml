@@ -8,7 +8,7 @@ release_tag: latest
 ls_branch: master
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'thibaud-rohmer'
+  - EXT_USER = 'Kangaroux'
   - EXT_REPO = 'PhotoShow'
   - BUILD_VERSION_ARG = 'PHOTOSHOW_COMMIT'
   - LS_USER = 'linuxserver'

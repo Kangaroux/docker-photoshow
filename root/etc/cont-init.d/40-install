@@ -9,7 +9,7 @@ PHOTOSHOW_COMMIT=$(cat /version.txt)
 # install photoshow
 if [ ! -d "/config/www/PhotoShow/.git" ]; then
 	echo "fetching photoshow files from github"
-	git clone https://github.com/thibaud-rohmer/PhotoShow.git /config/www/PhotoShow
+	git clone https://github.com/Kangaroux/PhotoShow.git /config/www/PhotoShow
 	git --git-dir=/config/www/PhotoShow/.git --work-tree=/config/www/PhotoShow checkout ${PHOTOSHOW_COMMIT}
 	sed -i \
 		-e "s#$config->photos_dir.*#$config->photos_dir = \"/Pictures\";#g" \

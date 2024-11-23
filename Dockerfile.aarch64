@@ -21,7 +21,7 @@ RUN \
 	zip && \
  echo "**** Tag this image with current version ****" && \
  if [ -z ${PHOTOSHOW_COMMIT+x} ]; then \
-        PHOTOSHOW_COMMIT=$(curl -sX GET https://api.github.com/repos/thibaud-rohmer/PhotoShow/commits/master \
+        PHOTOSHOW_COMMIT=$(curl -sX GET https://api.github.com/repos/Kangaroux/PhotoShow/commits/master \
         | jq -r '. | .sha'); \
  fi && \
  echo ${PHOTOSHOW_COMMIT} > /version.txt && \

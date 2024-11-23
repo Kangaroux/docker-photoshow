@@ -44,9 +44,9 @@ This image is deprecated. We will not offer support for this image and it will n
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-photoshow%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-photoshow/job/master/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fphotoshow%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/photoshow/latest/index.html)
 
-[Photoshow](https://github.com/thibaud-rohmer/PhotoShow) is gallery software at its easiest, it doesn't even require a database.
+[Photoshow](https://github.com/Kangaroux/PhotoShow) is gallery software at its easiest, it doesn't even require a database.
 
-[![photoshow](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/photoshow-icon.png)](https://github.com/thibaud-rohmer/PhotoShow)
+[![photoshow](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/photoshow-icon.png)](https://github.com/Kangaroux/PhotoShow)
 
 ## Supported Architectures
 
